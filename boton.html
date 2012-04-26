@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<script type="text/javascript">
+var t;
+var timer_is_on=0;
+
+function timedCount()
+{
+	var ahora=new Date();
+	hora=ahora.getHours();
+	preMinutos=ahora.getMinutes();
+		if (preMinutos<10){
+			minutos="0"+preMinutos;
+		}else{
+			minutos=preMinutos;
+		}
+	segundos=ahora.getSeconds();
+	ya=hora+":"+minutos+":"+segundos;
+    document.getElementById('txt').innerHTML=ya;
+    t=setTimeout("timedCount()",1000);
+}
+
+function doTimer()
+{
+if (!timer_is_on)
+  {
+  timer_is_on=1;
+  timedCount();
+  }
+}
+</script> 
+</head>
+
+<body onload="doTimer()">
+<form>
+<input type="button" value="Start count!" onclick="doTimer()">
+<div id="txt"></div>
+</form>
+</body>
+</html>
