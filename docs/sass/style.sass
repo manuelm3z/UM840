@@ -1,0 +1,374 @@
+@font-face
+    font-family: ArkitechLight
+    src: url(../fonts/ArkitechLight.otf)
+
+body
+    background: #C9FCC0
+    padding: 10px
+
+h1
+    color: #318E20
+    font-family: "MPR", sans-serif
+    font-size: 24px
+    margin: 5px 10px
+    position: relative
+
+    b
+        font-family: "MPS", sans-serif
+        font-size: 24px
+        font-weight: normal
+
+    span
+        background: linear-gradient(top, rgba(201, 252, 192, .6), rgba(201, 252, 192, 0))
+        bottom: 0
+        left: 0
+        display: block
+        position: absolute
+        top: 0
+        right: 0
+        background: -ms-linear-gradient(top, rgba(201, 252, 192, .6), rgba(201, 252, 192, 0))
+        background: -o-linear-gradient(top, rgba(201, 252, 192, .6), rgba(201, 252, 192, 0))
+        background: -webkit-linear-gradient(top, rgba(201, 252, 192, .6), rgba(201, 252, 192, 0))
+
+.area
+    margin: 0 auto
+    width: 960px
+
+.marco
+    background: #fff
+    border-radius: 12px
+    border-width: 1px 0 0 0
+    border: solid rgba(0, 0, 0, .1)
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5)
+    overflow: hidden
+    padding: 40px
+    height: 1000px
+
+    h1
+        font-size: 40px
+        margin: 50px 0 0 0
+
+.lado_derecho
+    float: left
+    width: 50%
+
+.pantalla
+    position: absolute
+    background-color: #0D0D0E
+    width: 319px
+    height: 445px
+    content: ""
+    top: -416px
+    left: 20px
+
+.telefono
+    margin: 0 0 80px 0
+    padding: 3px 0 0 0
+    position: relative
+    width: 396px	
+
+#arriba
+    top: 3px
+    left: 3.7px
+    position: absolute
+    width: 0
+    height: 0
+    border-bottom: 3.5px solid white
+    border-right: 3px solid transparent
+    border-left: 3px solid transparent
+
+    &::before
+        position: absolute
+        content: ""
+        width: 3px
+        height: 10px
+        background-color: white
+        top: 3px
+        left: -2.21px
+
+#abajo
+    top: 13px
+    left: 10px
+    position: absolute
+    width: 0
+    height: 0
+    border-top: 3.5px solid white
+    border-right: 3px solid transparent
+    border-left: 3px solid transparent
+
+    &::before
+        position: absolute
+        content: ""
+        width: 3px
+        height: 10px
+        background-color: white
+        top: -12.5px
+        left: -2.18px
+
+#barra
+    width: auto
+    height: 20px
+    content: ""
+    background-image: -webkit-gradient(linear, 0% -100%, 0% 100%, from(#ffffff), to(#989898), color-stop(0.6, #ffffff))
+    background-image: linear-gradient(10% 35px 90deg, #ffffff, #989898, #ffffff 80%)
+
+#boton_menu
+    color: black
+    font-family: ArkitechLight
+    font-size: 8px
+    left: 90px
+    position: relative
+    top: 98px
+    transform: rotate(3deg)
+
+#camara
+    background-color: #151515
+    border-radius: 50%
+    content: ""
+    height: 20px
+    left: 81px
+    position: relative
+    top: 20px
+    width: 20px
+
+    &::before
+        background-color: black
+        border-radius: 50%
+        content: ""
+        height: 5px
+        left: 7px
+        position: absolute
+        top: 7px
+        width: 5px
+
+#carcasa
+    border-radius: 100% / 1900%
+    height: 678px
+    position: absolute
+    width: 378px
+    background-color: #b71d65
+
+    &::before
+        content: ""
+        left: 10px
+        position: absolute
+        top: -11px
+        width: 359px
+        background-color: #151515
+        background-image: -ms-linear-gradient(top, #000000, #404040, #000000 80px)
+        background-image: -o-linear-gradient(top, #000000, #404040, #000000 80px)
+        background-image: -webkit-linear-gradient(top, #000000, #404040, #000000 80px)
+        background-image: linear-gradient(top, #000000, #404040, #000000 80px)
+        border-radius: 2700% / 100%
+        height: 700px
+
+#colgar
+    position: absolute
+    top: 86px
+    left: 300px
+    content: ""
+    width: 35px
+    height: 6px
+    background: black
+    border-radius: 100% 100% 20% 20%
+    transform: rotate(-6deg)
+
+    &::before
+        position: absolute
+        top: 3px
+        left: 7px
+        content: ""
+        width: 22px
+        height: 4px
+        border-radius: 100% 100% 20% 20%
+        transform: rotate(0deg)
+        background-image: linear-gradient(top, #ba256b, #b71e66 2px)
+        background-image: -webkit-linear-gradient(top, #ba256b, #b71e66 2px)
+        background-image: -o-linear-gradient(top, #ba256b, #b71e66 2px)
+        background-image: -ms-linear-gradient(top, #ba256b, #b71e66 2px)
+
+#corneta
+    position: absolute
+    top: 26px
+    left: 141px
+    background-color: silver
+    content: ""
+    width: 110px
+    height: 7px
+    border-radius: 3px
+
+#dentro_carcasa
+    background-color: #b71d65
+    background-image: linear-gradient(top, #FFE4FF, #b71d65 92px)
+    border-radius: 0px 0px 150px 150px / 13px
+    content: ""
+    height: 105px
+    left: 10px
+    position: absolute
+    top: 505px
+    width: 359px
+    background-image: -ms-linear-gradient(top,  #FFE4FF, #b71d65 92px)
+    background-image: -o-linear-gradient(top, #FFE4FF, #b71d65 92px)
+    background-image: -webkit-linear-gradient(top, #FFE4FF, #b71d65 92px)
+
+    &::before
+        background-color: black
+        border-radius: 0px 0px 150px 150px / 13px
+        content: ""
+        height: 480px
+        left: 0px
+        position: absolute
+        top: -398px
+        width: 359px
+
+#llamar
+    position: absolute
+    top: 87px
+    left: 23px
+    content: ""
+    width: 35px
+    height: 6px
+    background: black
+    border-radius: 20% 20% 100% 100%
+    transform: rotate(5deg)
+
+    &::before
+        background-image: linear-gradient(top, #bd2f72, #bb276d 2px)
+        background: #C83E73
+        border-radius: 20% 20% 100% 100%
+        content: ""
+        height: 4px
+        left: 7px
+        position: absolute
+        top: -1px
+        transform: rotate(1deg)
+        width: 22px
+        background-image: -ms-linear-gradient(top, #bd2f72, #bb276d 2px)
+        background-image: -o-linear-gradient(top, #bd2f72, #bb276d 2px)
+        background-image: -webkit-linear-gradient(top, #bd2f72, #bb276d 2px)
+
+#internet
+    position: absolute
+    width: 18px
+    height: 18px
+    content: ""
+    background-color: black
+    top: 1px
+    left: 5px
+    border-radius: 2px
+
+#pad
+    position: absolute
+    top: 58.5px
+    left: 144.5px
+    background-color: #b71d65
+    content: ""
+    width: 70px
+    height: 70px
+    border-radius: 10px
+    background-image: -ms-linear-gradient(top,  #c74987, #b71d65 10px)
+    background-image: -o-linear-gradient(top, #c74987, #b71d65 10px)
+    background-image: -webkit-linear-gradient(top, #c74987, #b71d65 10px)
+
+    &::before
+        background-color: black
+        background-image: -moz-radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px)
+        background-image: -ms-radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px)
+        background-image: -o-radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px)
+        background-image: -webkit-radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px)
+        background-image: radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px)
+        border-radius: 10px
+        content: ""
+        height: 55px
+        left: 7.5px
+        position: absolute
+        top: 7.5px
+        width: 55px
+
+#power
+    height: 10px
+    left: 303px
+    position: absolute
+    top: -6px
+    width: 23px
+    background-color: black
+    border-radius: 2px
+    content: ""
+    transform: rotate(4deg)
+
+#retorno
+    top: 88px
+    left: 235px
+    position: absolute
+    width: 0
+    height: 0
+    border-top: 3px solid transparent
+    border-right: 8px solid black
+    border-bottom: 3px solid transparent
+    transform: rotate(-2deg)
+
+    &::before
+        position: absolute
+        content: ""
+        width: 7px
+        height: 2px
+        background-color: black
+        top: -1.5px
+        left: 8px
+        transform: rotate(-2deg)
+
+    &::after
+        content: ""
+        position: absolute
+        top: -1.7px
+        left: 10px
+        width: 15px
+        height: 3px
+        border-top: 2px solid black
+        border-right: 2px solid black
+        border-bottom: 2px solid black
+        border-radius: 0px 100px 100px 0px
+        transform: rotate(-2deg)
+
+#sensor
+    position: absolute
+    top: 26px
+    left: 105px
+    background-color: silver
+    content: ""
+    width: 7px
+    height: 7px
+    border-radius: 50%
+
+#volumen
+    height: 90px
+    left: 370px
+    position: absolute
+    top: 165px
+    width: 10px
+    background-color: black
+    border-radius: 2px
+    content: ""
+    transform: rotate(-1deg)
+
+#senal
+    position: absolute
+    width: 18px
+    height: 18px
+    content: ""
+    background-color: black
+    top: 1px
+    left: 100px
+    border-radius: 2px
+
+#hora
+    position: relative
+    top: 3px
+    left: 254px
+    font-size: 15px
+
+#hora2
+    position: relative
+    font-size: 11px
+    left: 292px
+    top: -14px
