@@ -22,7 +22,7 @@
       position: absolute;
       top: -6px;
       width: 23px;
-      background-color: black;
+      background-color: var(--phone-black);
       border-radius: 2px;
       content: "";
       transform: rotate(4deg);
@@ -34,7 +34,7 @@
       position: absolute;
       top: 165px;
       width: 10px;
-      background-color: black;
+      background-color: var(--phone-black);
       border-radius: 2px;
       content: "";
       transform: rotate(-1deg);
@@ -45,7 +45,7 @@
       height: 678px;
       position: absolute;
       width: 378px;
-      background-color: #b71d65;
+      background-color: var(--phone-body);
   
       &::before {
         content: "";
@@ -53,17 +53,14 @@
         position: absolute;
         top: -11px;
         width: 359px;
-        background-color: #151515;
-        background-image: -ms-linear-gradient(top, #000000, #404040, #000000 80px);
-        background-image: -o-linear-gradient(top, #000000, #404040, #000000 80px);
-        background-image: -webkit-linear-gradient(top, #000000, #404040, #000000 80px);
-        background-image: linear-gradient(top, #000000, #404040, #000000 80px);
+        background-color: var(--phone-dark);
+        background-image: linear-gradient(to bottom, var(--phone-black), #404040, var(--phone-black) 80px);
         border-radius: 2700% / 100%;
         height: 700px;
       }
 
       #camera {
-        background-color: #151515;
+        background-color: var(--phone-dark);
         border-radius: 50%;
         content: "";
         height: 20px;
@@ -73,7 +70,7 @@
         width: 20px;
     
         &::before {
-          background-color: black;
+          background-color: var(--phone-black);
           border-radius: 50%;
           content: "";
           height: 5px;
@@ -117,8 +114,7 @@
       }
 
       .buttons {
-        background-color: #b71d65;
-        background-image: linear-gradient(top, #FFE4FF, #b71d65 92px);
+        background-color: var(--phone-body);
         border-radius: 0px 0px 150px 150px / 13px;
         content: "";
         height: 105px;
@@ -126,12 +122,10 @@
         position: absolute;
         top: 505px;
         width: 359px;
-        background-image: -ms-linear-gradient(top,  #FFE4FF, #b71d65 92px);
-        background-image: -o-linear-gradient(top, #FFE4FF, #b71d65 92px);
-        background-image: -webkit-linear-gradient(top, #FFE4FF, #b71d65 92px);
+        background-image: linear-gradient(to bottom, #FFE4FF, var(--phone-body) 92px);
     
         &::before {
-          background-color: black;
+          background-color: var(--phone-black);
           border-radius: 0px 0px 150px 150px / 13px;
           content: "";
           height: 480px;
@@ -148,12 +142,11 @@
           content: "";
           width: 35px;
           height: 6px;
-          background: black;
+          background: var(--phone-black);
           border-radius: 20% 20% 100% 100%;
           transform: rotate(5deg);
       
           &::before {
-            background-image: linear-gradient(top, #bd2f72, #bb276d 2px);
             background: #C83E73;
             border-radius: 20% 20% 100% 100%;
             content: "";
@@ -163,14 +156,12 @@
             top: -1px;
             transform: rotate(1deg);
             width: 22px;
-            background-image: -ms-linear-gradient(top, #bd2f72, #bb276d 2px);
-            background-image: -o-linear-gradient(top, #bd2f72, #bb276d 2px);
-            background-image: -webkit-linear-gradient(top, #bd2f72, #bb276d 2px);
+            background-image: linear-gradient(to bottom, #bd2f72, #bb276d 2px);
           }
         }
 
         #menu {
-          color: black;
+          color: var(--phone-black);
           font-family: ArkitechLight;
           font-size: 8px;
           left: 90px;
@@ -183,22 +174,16 @@
           position: absolute;
           top: 58.5px;
           left: 144.5px;
-          background-color: #b71d65;
+          background-color: var(--phone-body);
           content: "";
           width: 70px;
           height: 70px;
           border-radius: 10px;
-          background-image: -ms-linear-gradient(top,  #c74987, #b71d65 10px);
-          background-image: -o-linear-gradient(top, #c74987, #b71d65 10px);
-          background-image: -webkit-linear-gradient(top, #c74987, #b71d65 10px);
+          background-image: linear-gradient(to bottom,  #c74987, var(--phone-body) 10px);
       
           &::before {
-            background-color: black;
-            background-image: -moz-radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px);
-            background-image: -ms-radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px);
-            background-image: -o-radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px);
-            background-image: -webkit-radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px);
-            background-image: radial-gradient(55px 55px, circle farthest-side, #000000, #ffffff 400px);
+            background-color: var(--phone-black);
+            background-image: radial-gradient(circle farthest-side at 55px 55px,  var(--phone-black), white 400px);
             border-radius: 10px;
             content: "";
             height: 55px;
@@ -216,7 +201,7 @@
           width: 0;
           height: 0;
           border-top: 3px solid transparent;
-          border-right: 8px solid black;
+          border-right: 8px solid var(--phone-black);
           border-bottom: 3px solid transparent;
           transform: rotate(-2deg);
       
@@ -225,7 +210,7 @@
             content: "";
             width: 7px;
             height: 2px;
-            background-color: black;
+            background-color: var(--phone-black);
             top: -1.5px;
             left: 8px;
             transform: rotate(-2deg);
@@ -238,9 +223,9 @@
             left: 10px;
             width: 15px;
             height: 3px;
-            border-top: 2px solid black;
-            border-right: 2px solid black;
-            border-bottom: 2px solid black;
+            border-top: 2px solid var(--phone-black);
+            border-right: 2px solid var(--phone-black);
+            border-bottom: 2px solid var(--phone-black);
             border-radius: 0px 100px 100px 0px;
             transform: rotate(-2deg);
           }
@@ -253,7 +238,7 @@
           content: "";
           width: 35px;
           height: 6px;
-          background: black;
+          background: var(--phone-black);
           border-radius: 100% 100% 20% 20%;
           transform: rotate(-6deg);
       
@@ -266,10 +251,7 @@
             height: 4px;
             border-radius: 100% 100% 20% 20%;
             transform: rotate(0deg);
-            background-image: linear-gradient(top, #ba256b, #b71e66 2px);
-            background-image: -webkit-linear-gradient(top, #ba256b, #b71e66 2px);
-            background-image: -o-linear-gradient(top, #ba256b, #b71e66 2px);
-            background-image: -ms-linear-gradient(top, #ba256b, #b71e66 2px);
+            background-image: linear-gradient(to bottom, #ba256b, #b71e66 2px);
           }
         }
       }
