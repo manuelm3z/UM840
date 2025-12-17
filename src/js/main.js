@@ -1,10 +1,10 @@
 var t, timer_is_on = 0, am="a.m.", pm="p.m.";
 
 function timedCount() {
-    var ahora = new Date();
-    preHora = ahora.getHours();
-    if (preHora > 12) {
-        hora = preHora - 12;
+  var ahora = new Date();
+  preHora = ahora.getHours();
+  if (preHora > 12) {
+    hora = preHora - 12;
 	} else {
 		hora = preHora;
 	}

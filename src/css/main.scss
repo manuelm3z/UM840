@@ -1,0 +1,131 @@
+@use 'variables';
+@use 'base';
+@use 'layout';
+@use 'artwork';
+
+// body
+//     background: #C9FCC0
+//     padding: 10px
+
+// h1
+//     color: #318E20
+//     font-family: "MPR", sans-serif
+//     font-size: 24px
+//     margin: 5px 10px
+//     position: relative
+
+//     b
+//         font-family: "MPS", sans-serif
+//         font-size: 24px
+//         font-weight: normal
+
+//     span
+//         background: linear-gradient(top, rgba(201, 252, 192, .6), rgba(201, 252, 192, 0))
+//         bottom: 0
+//         left: 0
+//         display: block
+//         position: absolute
+//         top: 0
+//         right: 0
+//         background: -ms-linear-gradient(top, rgba(201, 252, 192, .6), rgba(201, 252, 192, 0))
+//         background: -o-linear-gradient(top, rgba(201, 252, 192, .6), rgba(201, 252, 192, 0))
+//         background: -webkit-linear-gradient(top, rgba(201, 252, 192, .6), rgba(201, 252, 192, 0))
+
+// .area
+//     margin: 0 auto
+//     width: 960px
+
+// .marco
+//     background: #fff
+//     border-radius: 12px
+//     border-width: 1px 0 0 0
+//     border: solid rgba(0, 0, 0, .1)
+//     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5)
+//     overflow: hidden
+//     padding: 40px
+//     height: 1000px
+
+//     h1
+//         font-size: 40px
+//         margin: 50px 0 0 0
+
+// .lado_derecho
+//     float: left
+//     width: 50%
+
+// #arriba
+//     top: 3px
+//     left: 3.7px
+//     position: absolute
+//     width: 0
+//     height: 0
+//     border-bottom: 3.5px solid white
+//     border-right: 3px solid transparent
+//     border-left: 3px solid transparent
+
+//     &::before
+//         position: absolute
+//         content: ""
+//         width: 3px
+//         height: 10px
+//         background-color: white
+//         top: 3px
+//         left: -2.21px
+
+// #abajo
+//     top: 13px
+//     left: 10px
+//     position: absolute
+//     width: 0
+//     height: 0
+//     border-top: 3.5px solid white
+//     border-right: 3px solid transparent
+//     border-left: 3px solid transparent
+
+//     &::before
+//         position: absolute
+//         content: ""
+//         width: 3px
+//         height: 10px
+//         background-color: white
+//         top: -12.5px
+//         left: -2.18px
+
+// #barra
+//     width: auto
+//     height: 20px
+//     content: ""
+//     background-image: -webkit-gradient(linear, 0% -100%, 0% 100%, from(#ffffff), to(#989898), color-stop(0.6, #ffffff))
+//     background-image: linear-gradient(10% 35px 90deg, #ffffff, #989898, #ffffff 80%)
+
+// #internet
+//     position: absolute
+//     width: 18px
+//     height: 18px
+//     content: ""
+//     background-color: black
+//     top: 1px
+//     left: 5px
+//     border-radius: 2px
+
+// #senal
+//     position: absolute
+//     width: 18px
+//     height: 18px
+//     content: ""
+//     background-color: black
+//     top: 1px
+//     left: 100px
+//     border-radius: 2px
+
+// #hora
+//     position: relative
+//     top: 3px
+//     left: 254px
+//     font-size: 15px
+
+// #hora2
+//     position: relative
+//     font-size: 11px
+//     left: 292px
+//     top: -14px
