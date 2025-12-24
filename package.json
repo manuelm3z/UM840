@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/manuelm3z/UM840#readme",
   "devDependencies": {
-    "sass": "^1.97.0",
+    "sass": "^1.97.1",
     "vite": "^7.3.0"
   }
 }
