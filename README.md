@@ -1,9 +1,10 @@
 # Huawei UM840 Evolution
+[![Deploy to GitHub Pages](https://github.com/manuelm3z/um840/actions/workflows/deploy-gh-pages.yml/badge.svg)](https://manuelm3z.github.io/um840/)
 
 UM840 es un proyecto **experimental y visual**, enfocado principalmente en **CSS moderno**. La idea es explorar, probar y pulir conceptos de diseño visual como gradientes, tipografía, layout y composición, manteniendo el stack lo más simple posible.
 
 El proyecto está deployado y accesible públicamente:
-👉 [https://um-840.vercel.app/](https://um-840.vercel.app/)
+👉 [https://manuelm3z.github.io/um840/](https://manuelm3z.github.io/um840/)
 
 ---
 
@@ -24,7 +25,7 @@ No es una app compleja ni un producto terminado. Es intencionalmente simple.
 * **CSS / SCSS** (foco principal del proyecto)
 * **Vite** como bundler
 * **pnpm** como package manager
-* **Vercel** para el deploy
+* **Github Pages** para el deploy
 
 No se usa ningún framework de JavaScript por decisión de diseño.
 
@@ -78,6 +79,6 @@ pnpm preview   # Preview del build
 El proyecto está desplegado en **Vercel** y se actualiza automáticamente con cada cambio en la rama principal.
 
 URL pública:
-[https://um-840.vercel.app/](https://um-840.vercel.app/)
+[https://manuelm3z.github.io/um840/](https://manuelm3z.github.io/um840/)
 
 ---
