@@ -76,7 +76,7 @@ pnpm preview   # Preview del build
 
 ## 🌍 Deploy
 
-El proyecto está desplegado en **Vercel** y se actualiza automáticamente con cada cambio en la rama principal.
+El proyecto está desplegado en **Github Pages** y se actualiza automáticamente con cada cambio en la rama principal.
 
 URL pública:
 [https://manuelm3z.github.io/UM840/](https://manuelm3z.github.io/UM840/)
