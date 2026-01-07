@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/um840/',
+  base: '/UM840/',
   root: 'src',
   publicDir: '../public',
   build: {
