@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       sass:
-        specifier: ^1.101.3
-        version: 1.101.3
+        specifier: ^1.102.0
+        version: 1.102.0
       vite:
         specifier: ^8.1.5
-        version: 8.1.5(esbuild@0.27.2)(sass@1.101.3)
+        version: 8.1.5(esbuild@0.27.2)(sass@1.102.0)
 
 packages:
 
@@ -498,8 +498,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  sass@1.101.3:
-    resolution: {integrity: sha512-Z1lLHhtAII+dyLNIQB6JQTZMy7sDxk3f5NzbINRc9ks1P0HCGvSuKev0wUhULFpLSaHBIMZrcTs9WDQUZerrgA==}
+  sass@1.102.0:
+    resolution: {integrity: sha512-NSOyTnaQF7rTAEOtI2fwb386vL+akyiQLBZu8Na7hXCb+umJy0GAqlcMIaqACZ6Z1VgTBS4K9PG6B3IdjHGJsw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -915,7 +915,7 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.1.5
       '@rolldown/binding-win32-x64-msvc': 1.1.5
 
-  sass@1.101.3:
+  sass@1.102.0:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
@@ -933,7 +933,7 @@ snapshots:
   tslib@2.8.1:
     optional: true
 
-  vite@8.1.5(esbuild@0.27.2)(sass@1.101.3):
+  vite@8.1.5(esbuild@0.27.2)(sass@1.102.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
@@ -943,4 +943,4 @@ snapshots:
     optionalDependencies:
       esbuild: 0.27.2
       fsevents: 2.3.3
-      sass: 1.101.3
+      sass: 1.102.0
